@@ -3,35 +3,23 @@
         border-left: 5vh solid var(--color-border);
         border-right: 5vh solid var(--color-border);
     }
-    #pesquisa {
-        margin-top: 20vh;
-    }
-    .conteudo h2 {
-        font-size: 1.8rem;
-    }
 }
 @media screen and (max-width: 600px) {
-    #pesquisa {
-        margin-top: 15vh;
-    }
     #pesquisa ::placeholder {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 500px) {
-    #pesquisa {
-        margin-top: 15vh;
-    }
     .conteudo h2 {
         font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 440px) {
-    #pesquisa {
-        width: 30vw;
-    }
     .pokemons li {
         width: 150px;
+    }
+    #pesquisa ::placeholder {
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 419px) {
@@ -40,36 +28,30 @@
     }
 }
 
-@media screen and (max-width: 365px) {
-    #pesquisa {
-        margin-top: 10vh;
-    }
-    .conteudo h2 {
-        font-size: 1rem;
-    }
-    .pokebola img {
-        width: 60px;
-    }
-    .link a {
-        font-size: 1rem;
-        padding: 5px;
-        margin-top: 15vh;
-    }
-}
 @media screen and (max-height: 1600px) {
     .pokemons li {
         height: 40vh;
     }
 }
-
+@media screen and (min-height: 750px) {
+    .pokemons li {
+        height: 30vh;
+    }
+}
 @media screen and (max-height: 600px) {
     .pokemons li {
         height: 50vh;
     }
 }
-@media screen and (max-height: 480px) {
+@media screen and (max-height: 450px) {
     .pokemons li {
-        height: 50vh;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-height: 400px) {
+    .pokemons li {
+        height: 80vh;
     }
 }
 

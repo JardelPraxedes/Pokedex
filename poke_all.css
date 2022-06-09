@@ -24,7 +24,7 @@ body {
     position: relative;
     flex-direction: row;
     width: 100vw;
-    height: 12vh;
+    height: 8vh;
     background-color: var(--color-border);
     align-items: center;
     justify-content: left;
@@ -36,13 +36,14 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #3D5AFE;
     border: 8px solid #FFFFFF;
     box-shadow: 0px 1px 3px 1px black;
     margin: 5vh;
+    margin-left: 6vw;
 }
 .reflexo {
     display: flex;
@@ -65,8 +66,8 @@ body {
     position: relative;
     align-items: center;
     justify-content: center;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     box-shadow: 0.5px 0.5px 1px 2px black;
     margin-right: 10px;
@@ -74,8 +75,8 @@ body {
 .botao-amarelo {
     display: flex;
     position: relative;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #FFEB3B;
     box-shadow: 0.5px 0.5px 1px 2px black;
@@ -85,8 +86,8 @@ body {
 .botao-verde {
     display: flex;
     position: relative;
-    width: 15px;
-    height: 15px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #00E676;
     box-shadow: 0.5px 0.5px 1px 2px black;
@@ -109,14 +110,48 @@ body {
     border-left: 2vh solid #FFFFFF;
     border-top: 2vh solid #FFFFFF;
     border-right: 2vh solid #FFFFFF;
-    border-bottom: 5vh solid #FFFFFF;
+    border-bottom: 3vh solid #FFFFFF;
+}
+#pesquisa {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    opacity: 0.9;
+}
+#pesquisa input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    height: 6vh;
+    font-weight: bold;
+    text-align: center;
+    background-color: #040303;
+    color: white;
+    border-radius: 50px;
+
+}
+#pesquisa :placeholder-shown {
+    color: white;
+    font-size: 1.6rem;
+    text-align: center; 
+    width: 40vw;
+    border-radius: 20px;
+}
+#pesquisa ::placeholder{
+    color: white;
 }
 .pokemons {
     display:flex;
     position: relative;
     align-items: center;
     justify-content: center;
-    justify-items: center;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -132,6 +167,7 @@ body {
     position: relative;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 30px 10px;
     background-color: #FAFAFA;
     margin: 5px;
@@ -142,7 +178,8 @@ body {
 }
 .pokemons li img {
     width: 80px;
-    background-color: #9CCC65;
+    /* background-color: #9CCC65; */
+    padding: 2px;
 }
 .pokemons li p {
     padding: 3px;
@@ -188,6 +225,26 @@ body {
     text-shadow: 0.5px 1px 5px black;
     font-size: 1.5rem;
 }
+#agua {
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: #2196F3;
+    border-radius: 50px;
+    box-shadow: 1px 0.5px 2px 0.5px black;
+    text-shadow: 0.5px 1px 5px black;
+    font-size: 1.5rem;
+}
+#voador {
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: #9FA8DA;
+    border-radius: 50px;
+    box-shadow: 1px 0.5px 2px 0.5px black;
+    text-shadow: 0.5px 1px 5px black;
+    font-size: 1.5rem;
+}
 #veneno {
     display: flex;
     position: relative;
@@ -197,6 +254,17 @@ body {
     box-shadow: 1px 0.5px 2px 0.5px black;
     text-shadow: 0.5px 1px 5px black;
     padding: 2px;
+    font-size: 1.5rem;
+}
+#fogo {
+    display: flex;
+    position: relative;
+    color: white;
+    background-color: #FF9800;
+    border-radius: 50px;
+    box-shadow: 1px 0.5px 2px 0.5px black;
+    text-shadow: 0.5px 1px 5px black;
+    padding: 2px 4px;
     font-size: 1.5rem;
 }
 .som {
