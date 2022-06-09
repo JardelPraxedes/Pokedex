@@ -1,4 +1,7 @@
+<div align="center">
+
 # Projeto de pokedex com base HTML e CSS <br> <hr>
+</div>
 <div align="center">
 
 ## Interface para desktop
